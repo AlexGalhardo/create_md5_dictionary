@@ -36,7 +36,7 @@ function generateCombinationsWithRepetition (inputString, combinationLength) {
 
 			dictionaryMD5Passwords[combinationLength].push(password)
 
-			fs.writeFileSync(`./md5_hash_dictionary/combinacoes_${combinationLength}.json`, JSON.stringify(dictionaryMD5Passwords[combinationLength], null, 4), 'utf8');
+			fs.writeFileSync(`./md5_hash_dictionary/passwords_length_${combinationLength}.json`, JSON.stringify(dictionaryMD5Passwords[combinationLength], null, 4), 'utf8');
 
 			return;
 		}
