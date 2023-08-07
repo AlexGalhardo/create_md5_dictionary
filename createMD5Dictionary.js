@@ -15,8 +15,8 @@ const dictionaryMD5Passwords = {
 }
 
 const indexes = [0, 1, 2, 3, 4, 5, 6, 7] // each worker index
-const lowerCaseChars = 'abcdefghijklmnopqrstuvwxyz';
-const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const lowerCaseChars = 'abcdefghijklmnopqrstuvwxyzç';
+const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÇ';
 const specialChars = '!@#$%^&*()-_+=<>?/,.:;{}[]|';
 const numericChars = '0123456789';
 
